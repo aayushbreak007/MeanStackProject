@@ -1,0 +1,47 @@
+.homeSection{
+
+    position: relative;
+
+    margin-bottom: 2%;
+
+    border-radius: 10px;
+
+    max-height: 450px;
+
+    opacity: 0.92;
+
+
+
+}
+
+.registration{
+
+    margin-top: 100%;
+
+    display: none;
+
+}
+
+.large_text{
+
+    font-size: 100px;
+
+    text-align: center;
+
+}
+
+.button1{
+
+    position: relative;
+
+    padding: 2px;
+
+    text-align: center;}
+
+    
+
+::-webkit-scrollbar {
+
+    display: none;
+
+    }

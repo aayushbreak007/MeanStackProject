@@ -1,0 +1,183 @@
+<div id="carouselDiv"class="dark_background">
+
+  <carousel [interval]="myInterval" [showIndicators]="showIndicator" [noPause]="noPause">
+
+    <slide>
+
+      <img  class="homeSection" src="assets/images/carousel/music_1.jpg" alt="first slide" style="display: block; width: 100%;">
+
+      <div class="carousel-caption d-none d-md-block">   
+
+          <span class="large_text">ReVAmp</span>
+
+          <h1 style="text-align: center"> Website under Progress!!</h1>
+
+      </div>
+
+    </slide>
+
+    <slide>
+
+      <img  class="homeSection" src="assets/images/carousel/music_2.jpg" alt="second slide" style="display: block; width: 100%;">
+
+      <div class="carousel-caption d-none d-md-block">
+
+          <span class="large_text">ReVAmp</span>
+
+          <h1 style="text-align: center"> Website under Progress!!</h1>
+
+      </div>
+
+    </slide>
+
+    <slide>
+
+        <img  class="homeSection" src="assets/images/carousel/music_3.jpg" alt="second slide" style="display: block; width: 100%;">
+
+        <div class="carousel-caption d-none d-md-block">
+
+            <span class="large_text">ReVAmp</span>
+
+            <h1 style="text-align: center"> Website under Progress!!</h1>
+
+        </div>
+
+      </slide>
+
+      <slide>
+
+          <img  class="homeSection" src="assets/images/carousel/music_4.jpg" alt="second slide" style="display: block; width: 100%;">
+
+          <div class="carousel-caption d-none d-md-block">
+
+              <span class="large_text">ReVAmp</span>
+
+              <h1 style="text-align: center"> Website under Progress!!</h1>
+
+          </div>
+
+        </slide>
+
+        <slide>
+
+            <img  class="homeSection" src="assets/images/carousel/music_5.jpg" alt="second slide" style="display: block; width: 100%;">
+
+            <div class="carousel-caption d-none d-md-block">
+
+                <span class="large_text">ReVAmp</span>
+
+                <h1 style="text-align: center"> Website under Progress!!</h1>
+
+            </div>
+
+          </slide>
+
+  </carousel>
+
+  <div class="button1"><button class="btn btn-primary" (click)="onLoginClick($event)">Login</button></div>
+
+  <div class="button1"><button class="btn btn-warning" (click)="onRegisterClick('regForm')">Register To ReVAmp</button></div>
+
+
+
+  <div id="regForm" class="registration">
+
+      
+
+        <form>
+
+              <fieldset>
+
+                  <legend>ReVAmp Registration</legend>
+
+                  <p class="text-info">Already a member?<strong> Please <button class="btn btn-primary btn-sm" (click)="onLoginClick($event)">Log In</button> instead.</strong></p>
+
+                   
+
+                  <div class="form-group">
+
+                        <label for="exampleInputEmail1">Email address</label>
+
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                      </div>
+
+                  
+
+                  <div class="form-group">
+
+                    <label for="exampleInputPassword1">Create Password</label>
+
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+                  </div>
+
+                  <div class="form-group">
+
+                    <label for="exampleSelect1">Example select</label>
+
+                    <select class="form-control" id="exampleSelect1">
+
+                      <option>India</option>
+
+                      <option>U.S.A</option>
+
+                      <option>Argentina</option>
+
+                      <option>Germany</option>
+
+                      <option>Cuba</option>
+
+                    </select>
+
+                  </div>
+
+                  <fieldset class="form-group">
+
+                    <legend>Gender</legend>
+
+                    <div class="form-check">
+
+                      <label class="form-check-label">
+
+                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+
+                        Male
+
+                      </label>
+
+                    </div>
+
+                    <div class="form-check">
+
+                    <label class="form-check-label">
+
+                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+
+                        Female
+
+                      </label>
+
+                    </div>
+
+                    <div class="button1">
+
+                       <button type="submit" class="btn btn-primary" (click)="SubmitRegistration($event,'carouselDiv')">Done</button>
+
+                    </div>
+
+                  
+
+                  </fieldset>
+
+                </fieldset>  
+
+              </form>
+
+    </div>
+
+     
+
+</div>
